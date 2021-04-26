@@ -3333,7 +3333,7 @@ class Hash[unchecked out K, unchecked out V]
   #
   # This is useful for limiting a set of parameters to everything but a few known toggles:
   #   @person.update(params[:person].except(:admin))
-  def except: (*untyped keys) -> untyped
+  # def except: (*untyped keys) -> untyped
 
   # Removes the given keys from hash and returns it.
   #   hash = { a: true, b: false, c: nil }
